@@ -1,0 +1,77 @@
+@import url("bootstrap.min.css");
+
+/* Тени для слайдера на главной */
+.shadowtext {
+	text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+/* навбар */
+
+.navbar-nav .nav-link {
+	transition: transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+	transform: scale(1.05);
+}
+
+/* Карточки услуг на странице services */
+
+/* .service-card-img-top {
+	height: 276px;
+} */
+
+.service-card {
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* звездочки на форме приема */
+i {
+	color: red;
+}
+
+/* footer */
+
+footer {
+	background-color: #3C5099;
+	color: #ffffff;
+	padding: 40px 0;
+}
+
+.footer-column h4 {
+	margin-bottom: 15px;
+}
+
+.footer-column ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-column ul li {
+	margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+	text-decoration: underline;
+}
+
+.social-media a {
+	display: block;
+}
+
+.footer-bottom {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 0.8em;
+}
